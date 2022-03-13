@@ -3,7 +3,16 @@ from collections import deque
 
 graph = {}
 graph["you"] = ["alice", "bob", "claire"]
+graph["bob"] = ["marat", "ulya"]
+graph["alice"] = ["ulya"]
+graph["claire"] = ["tor", "jonny"]
+graph["marat"] = []
+graph["ulya"] = []
+graph["tor"] = []
+graph["jonny"] = []
 
+def person_is_seller(person):
+	return person[-1] == "m"
 
 def search(name):
 	search_queue = deque() # Создание новой очереди
@@ -22,4 +31,4 @@ def search(name):
 				searched.append(person) # Чел. помечается как уже проверенный
 	return False # Если выполнение дошло до этой строки, то продавца нет
 
-search("you")
+search("tor")
