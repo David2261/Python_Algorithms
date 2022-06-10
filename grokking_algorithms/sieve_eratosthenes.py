@@ -1,4 +1,6 @@
 n = int(input("n="))
+
+
 for a in range(n+1):
     continue
 lst = []

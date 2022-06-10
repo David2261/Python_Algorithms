@@ -1,0 +1,26 @@
+{
+	/*"folders":
+	[
+		{
+			"path": "D:\\Django\\social_site",
+		},
+	],*/
+	"folders":
+	[
+		{
+			"path": "D:\\Django\\hello",
+		},
+		{
+			"path": "D:\\HTML",
+		},
+		{
+			"path": "D:\\JavaScript\\Vue\\InvestorSite",
+		},
+		{
+			"path": "D:\\C",
+		},
+		{
+			"path": "D:\\Python"
+		},
+	],
+}
