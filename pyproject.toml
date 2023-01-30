@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyalgorithms"
+version = "0.1.0"
+description = "Array with various algorithms and mathematical functions in python"
+authors = ["David2261 <bulatnasirov2003@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flake8 = "^6.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
